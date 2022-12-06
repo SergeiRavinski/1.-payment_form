@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Card payment</title>
+		<link rel="stylesheet" href="./css/fonts.css">
+		<link rel="stylesheet" href="./css/variables.css">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body>
+		<form action="./resultsrbåtutlei.html" class="get" method="post">
+			<div class="container">
+			<section class="content">
+				<div class="h">
+					<h3>Betaling med kort</h3>
+				</div>
+				<main>
+					<section class="cardinformation">
+						<label for="Cardnumber">Kortnummer</label>
+							<input class="input-1"
+								type="text"
+								name="kortnummer"
+								id="cardnumber"
+								placeholder="0000 0000 0000 0000">
+						<label for="cardholdersname">Kortholders navn</label>
+							<input class="input-2"
+								type="text"
+								name="kortholdersnavn"
+								id="cardholdersname"
+								placeholder="Ole Norman">
+					</section>
+
+					<section class="privatinformation">
+						<label for="expirationdate" id="date">Utløpsdato</label>
+							<input class="input-3"
+								type="date"
+								name="utøpsdato"
+								id="expirationdate">
+
+						<label for="authorizationcode" id="code">Autorisasjonskode(CVC)</label>
+							<input class="input-4"
+								type="text"
+								name="CVC"
+								id="authorizationcode"
+								placeholder="123">
+					</section>
+				</main>
+				<footer>			
+					<input 
+						class="text"
+						type="checkbox">
+						Jeg har lest og aksepterer SR båtutleie sin vilkår, og bekrefter at informasjonen i min bestilling er korrekt.
+
+						<a href="./resultsrbåtutlei.html" class="button-1">
+							<button>Betale</button>
+						</a>
+				</footer>
+			</section>
+		</div>
+		</form>
+	</body>
+</html>
